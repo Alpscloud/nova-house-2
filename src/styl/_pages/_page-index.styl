@@ -1,0 +1,140 @@
+.sect__promo
+	min-height 100vh
+	background-color black
+	display flex
+	align-items center
+	padding 130px 0 
+	
+.title
+	margin-bottom 35px
+	span
+		display none
+	img
+		display block
+		width 100%
+		
+.promo-block
+	color $basic-white-color
+	font-size 16px
+	line-height 26px
+	p
+		margin 0 auto 35px auto
+		max-width 665px
+		
+	&__btns
+		.btn
+			margin-right 16px
+			width 160px
+			padding-left 10px
+			padding-right 10px
+			&:last-child
+				margin-right 0
+				
+			&:hover
+				color $accent-color
+				
+.advantages
+	position absolute
+	z-index 2
+	bottom 0
+	horisontal-center()
+	width 100%
+	display flex
+	align-items center
+	
+	&-content
+		height 100px
+		color $basic-white-color
+		display flex
+		align-items center
+		padding 25px
+	&__row
+		width 100%
+		
+.advantage
+	text-align center
+	position relative
+	padding-left 15px
+	padding-right 15px
+	&:after
+		pseudo()
+		height 50px
+		width 1px
+		background-color rgba(255, 255, 255, 0.15)
+		position absolute
+		right 0
+		vertical-center()
+	&:last-child
+		&:after
+			display none
+			
+// About
+.about-complex
+	&__text
+		margin 0 auto 75px auto
+		max-width 300px
+	&__information
+		&--value
+			font 80px $Kudryashov
+			line-height 1
+			white-space nowrap
+			
+// Traditions
+.sect__traditions
+	position relative
+	&:before
+		pseudo()
+		position absolute
+		background-color $color-bg
+		height 100%
+		width calc(100% - 120px)
+		left 0
+		top 0
+	.container
+		position relative
+		z-index 1
+		
+.traditions
+	max-width 400px
+	position relative
+	
+	&-wrapper
+		min-height 500px
+	&-img
+		position absolute
+		right 100%
+		margin-right 100px
+		height 500px
+		width 620px
+		vertical-center()
+		
+//360
+.view-360
+	width 200%
+	padding-left 80px
+	margin-left 20px
+	&__content
+		width 50%
+		
+
+// lounge
+.sect__lounge-zone
+	position relative
+	padding-top 80px
+	.sect-title
+	
+		padding-left 7%
+	&:after
+		pseudo()
+		position absolute
+		top 120px
+		height 100%
+		right 0
+		width 50%
+		background-color $color-bg
+	.container
+		position relative
+		z-index 1
+.lounge-zone
+	img
+		display block
