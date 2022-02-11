@@ -188,6 +188,16 @@
 		position relative
 		max-width 600px
 		margin-top -80px
+		
+		&__left
+			margin-left auto
+			margin-right 0
+			.block-text
+				padding-right 0
+				padding-left 50px
+			.block-img
+				left auto
+				right 100%
 	
 		
 .block-text
@@ -195,3 +205,19 @@
 	padding-top 100px
 	position relative
 	z-index 2
+	
+.decor-side-block
+	position relative
+	&:after
+		height 100%
+		pseudo()
+		position absolute
+		top 0
+		right 0
+		width 100px
+		background-color $basic-white-color
+		z-index 1
+	&__left
+		&:after
+			right auto
+			left 0

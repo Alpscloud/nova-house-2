@@ -31,3 +31,31 @@
 	white-space nowrap
 	&:hover
 		color $accent-color
+		
+.fancy-link
+	position relative
+	display block
+	&:before
+		pseudo()
+		position absolute
+		fullSize()
+		background-color rgba($dark-bg, .85)
+		transition opacity .17s ease-in-out
+		opacity 0
+	&:after
+		pseudo()
+		position absolute
+		position-center()
+		z-index 1
+		width 25px
+		height 25px
+		background url('../img/icons/svg/fullscreen.svg') no-repeat / contain
+		transition opacity .17s ease-in-out
+		opacity 0
+	&:hover
+		&:before,
+		&:after
+			opacity 1
+		
+	img
+		display block

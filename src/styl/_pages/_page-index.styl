@@ -94,9 +94,11 @@
 		position relative
 		z-index 1
 		
-.traditions
+.description
 	max-width 400px
 	position relative
+	&-wide
+		max-width 600px
 	
 	&-wrapper
 		min-height 500px
@@ -138,3 +140,215 @@
 .lounge-zone
 	img
 		display block
+		
+
+		
+
+		
+.investor-benefit
+	margin-bottom 24px
+	.content
+		p
+			margin-bottom 15px
+	&:last-child
+		margin-bottom 0
+	&__price
+		color $accent-color
+		font 40px $Kudryashov
+		line-height 1
+		white-space nowrap
+		margin-bottom 15px
+		display block
+	
+.sect__business
+	.block-img-wrapper__left .block-text
+		padding-left 100px	
+
+.investment
+	position relative
+	min-height 500px
+	max-width 700px
+	padding-right 100px
+	&-img
+		position absolute
+		vertical-center()
+		width 620px
+		height 100%
+		padding-top 0
+		left 100%
+		
+
+.investment-information
+	width 480px
+	height 325px
+	position relative
+	z-index 1
+	&:before
+		pseudo()
+		width 1px
+		height 400px
+		background-color rgba($basic-white-color, .15)
+		position absolute
+		transform rotate(51deg)
+		left 157px
+		bottom -24px
+		z-index -1
+	&__block
+		padding-left 15px
+		position absolute
+		width 156px
+		&:before
+			pseudo()
+			position absolute
+			top 22px
+			left 0
+			width 8px
+			height 8px
+			border-radius 50%
+			background-color $basic-white-color
+		&:nth-child(1)
+			bottom 0
+			left 0
+		&:nth-child(2)
+			bottom 126px
+			left 156px
+		&:nth-child(3)
+			top 0
+			left 306px
+		p
+			max-width 120px
+			margin-top 10px
+		&--price
+			white-space nowrap
+			color $accent-color
+			font 40px $Kudryashov
+			display inline-flex
+			align-items flex-end
+			line-height 1
+			span
+				font 14px $Light
+				color rgba(255, 255, 255, 0.5)
+				display inline-block
+				margin-left 5px
+				
+
+// Terms
+.terms-content
+	.row
+		div
+			font 12px $Med
+			text-transform uppercase
+			letter-spacing 0.2em
+			display flex
+			align-items center
+			
+			a
+				color $text-color
+				margin-right 60px
+				&:hover
+					color $accent-color
+					
+// Plan
+.plan
+	&-block
+		margin-bottom 60px
+		position relative
+		&:before
+			pseudo()
+			background-color $color-bg
+			position absolute
+			top 50px
+			height 620px
+			left 0
+			width 36%
+			z-index -1
+		&:last-child
+			margin-bottom 0
+		&-commercial
+			.sect-title
+				margin-left auto
+				margin-right 0
+				max-width 600px
+				text-align left
+			&:before
+				right 0
+				left auto
+				bottom 0
+				height auto
+			
+	&-controls
+		display flex
+		flex-wrap wrap
+		justify-content space-between
+		margin-bottom 65px
+		&__btn
+			flex-col-center()
+			height 80px
+			flex 1
+			text-transform uppercase
+			color rgba(255, 255, 255, 0.6)
+			font 20px $Kudryashov
+			position relative
+			padding-left 15px
+			padding-right 15px
+			text-align center
+			&:after
+				pseudo()
+				vertical-center()
+				position absolute
+				width 1px
+				height 40px
+				background-color rgba(255, 255, 255, 0.15)
+				right 0
+			&:last-child
+				&:after
+					display none
+			&:hover,
+			&.is-active
+				color $basic-white-color
+	
+.plan-content__item
+	position relative
+	.plan-flats
+		p
+			position absolute
+			width 100%
+			max-width 500px
+			right 100px
+			top 0
+			
+			z-index 1
+						
+.plan-img
+	flex 1
+	margin-right 115px
+.plan-flats
+	width 300px
+	flex none
+	padding-top 80px
+	&__list
+		li
+			display flex
+			flex-wrap nowrap
+			align-items center
+			margin-bottom 5px
+			line-height 1
+			&:last-child
+				margin-bottom 0
+			span
+				flex none
+				flex-col-center()
+				width 30px
+				height 30px
+				border-radius 50%
+				background-color $dark-bg
+				text-align center
+				color $basic-white-color
+				font 14px $Kudryashov
+				line-height 50px
+				margin-right 14px
+				
+			&.is-booked
+				color #b2b2ba
+				span
+					background-color #b2b2ba
