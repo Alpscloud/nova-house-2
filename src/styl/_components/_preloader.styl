@@ -5,12 +5,37 @@
 	position-center()
 	z-index 1001
 	perspective 500px
-	span
+	text-align center
+	img
 		display block
-		width 40px
-		height 40px
-		background-color $basic-white-color
-		animation rotating 2s linear infinite
+		margin 0 auto 10px auto
+		width 230px
+		
+	span
+		width 1px
+		height 12px
+		background $basic-white-color
+		margin 0 1px
+		display inline-block
+		animation opacity 1000ms infinite ease-in-out
+		&:nth-child(1)
+			animation-delay 800ms
+		&:nth-child(2)
+			animation-delay 600ms
+		&:nth-child(3)
+			animation-delay 400ms
+		&:nth-child(4)
+			animation-delay 200ms
+		&:nth-child(6)
+			animation-delay 200ms
+		&:nth-child(7)
+			animation-delay 400ms
+		&:nth-child(8)
+			animation-delay 600ms
+		&:nth-child(9)
+			animation-delay 800ms
+		
+
 		
 	&__wrapper
 		position fixed
@@ -32,12 +57,22 @@
 		&--right
 			right 0
 
+@keyframes opacity
+	0% 
+		opacity 1
 
-			
-@keyframes rotating
-	100%
-		transform rotateY(360deg)
-	
+	50%
+		opacity 0
+
+	100% 
+		opacity 1
+  
+
+@keyframes scaling
+	to
+		transform scale(1, 1)
+					
+
 
 .is-loaded
 
@@ -54,3 +89,21 @@
 			&--right
 				transform translateY(100%)
 				transition all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000)
+				
+	.sect__promo
+		&:before
+			animation scaling 8s linear forwards
+			
+	.advantages
+		transform translate(-50%, 0)
+		
+	.promo-block
+		opacity 1
+		margin-top 0
+		
+	.header
+		opacity 1
+		
+
+
+

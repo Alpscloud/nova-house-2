@@ -1,23 +1,93 @@
 .slider
-	&__loader
-		position absolute
-		fullSize()
-		z-index 10
-		background-color $light-color
-		transition all .15s ease-in-out
-		&:before
-			pseudo()
+	&-controls
+		margin-top 40px
+		display flex
+		flex-wrap nowrap
+		align-items center
+		justify-content space-between
+		width 80px
+		height 8px
+		&__btn
+			display inline-block
 			width 30px
-			height 30px
-			position absolute
-			position-center()
-			background url('../img/slider-loader.gif') 50% 50% no-repeat / 30px 30px
-			
-		&.is-loaded
-			opacity 0
-			visibility hidden
-			pointer-events none
+			height 8px
+			svg
+				svg()
+				fill $text-color
+			&:hover
+				svg
+					fill $accent-color
 			
 .swiper-container
 	*
 		box-sizing border-box
+		
+
+.entering-slider
+	position relative
+	min-height 700px
+	&:before
+		pseudo()
+		position absolute
+		width 720px
+		height 100%
+		background url('../img/textures/about.jpg') no-repeat / cover
+		z-index -1
+		top -80px
+		left -120px
+	&__controls
+		margin-left auto
+		margin-right 0
+		width 100%
+		max-width 500px
+	&__text
+		width 50%
+		position absolute
+		top 0
+		right 0
+		.content
+			max-width 400px
+			margin 0 auto
+	
+	.swiper-wrapper
+		align-items flex-end
+		height 500px
+	.swiper-slide
+		// padding-left 25px
+		// padding-right 25px
+		width 300px
+		height auto	
+		transition width .2s ease-in-out
+		&-active
+			width 500px
+			
+		.thumbnail
+			padding-top 100%
+			
+.building-slider
+	position relative
+	min-height 600px
+
+	&:before
+		pseudo()
+		position absolute
+		width 720px
+		height 700px
+		background url('../img/textures/about2.jpg') no-repeat / cover
+		z-index -1
+		top -80px
+		left -120px
+		
+	&__controls
+		max-width calc(50% - 25px)
+		margin-left auto
+		margin-right 0
+		
+.building-step
+	.thumbnail
+		padding-top 68%
+		margin-bottom 15px
+		
+.date
+	font 16px $Kudryashov
+	margin-bottom 6px

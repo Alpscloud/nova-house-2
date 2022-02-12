@@ -1,2 +1,64 @@
 .footer
 	background-color $footer-bg
+	&-text
+		color rgba($basic-white-color, 0.6)
+		text-transform uppercase
+		font 18px $Kudryashov
+		line-height 27px
+		margin-bottom 35px
+		&:last-child
+			margin-bottom 0
+		&__label
+			font 14px $Light
+			color rgba($basic-white-color, 0.3)
+			margin-bottom 20px
+			text-transform none
+		a
+			white-space nowrap
+			color inherit
+			&:hover
+				color $basic-white-color
+				
+	.logo
+		margin-bottom 70px
+		height 80px
+		
+.developer-logo
+	margin-bottom 70px
+	width 35px
+	height 80px
+	img	
+		display block
+		
+.socials
+	font-size 0
+	white-space nowrap
+	li
+		display inline-block
+		margin-right 30px
+		&:last-child
+			margin-right 0
+	a
+		display inline-block
+		svg
+			svg()
+			max-width 50px !important
+			max-height 20px !important
+			fill rgba($basic-white-color, 0.6) !important
+			path
+				opacity 1 !important
+				fill inherit !important
+		&:hover
+			svg
+				fill $basic-white-color !important
+				
+.footer-bottom
+	padding 35px 0
+	border-top 1px solid rgba($basic-white-color, 0.15)
+	color rgba($basic-white-color, 0.25)
+	
+	a, button
+		color inherit
+		font 14px $Light
+		&:hover
+			color $basic-white-color

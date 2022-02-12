@@ -8,4 +8,613 @@
 +max-screen-height(maxHeight)
 +min-screen-height(minHeight)
 */
++max-screen(1450px)
+	.view-360
+		width 200%
+		margin-left 0
+		&__content
+			width 50%
+			padding-right 20px
+			
+	.decor-side-block
+		&.is-animated
+			&:after
+				width 50px
+		.description
+			padding-right 100px
+			
+	.sect__investment
+		.investment
+			padding-left 70px
+		
++max-screen(1279px)
+	.infrastructure
+		.sect-title
+			margin 0 auto 30px auto
+			text-align center
+		&__row
+			margin-top 0
+			
 
+	.entering-slider__text
+		position relative
+		top auto
+		right auto
+		margin 0 auto 40px auto
+		
+
+	.entering-slider
+		min-height auto
+		.swiper-wrapper
+			height auto
+			
+	.entering-slider__controls
+		max-width 100%
+		
+		.slider-controls
+			margin 40px auto 0
+			
+	.sect__entering
+		.sect-title
+			margin 0 auto 30px auto
+			text-align center
+
+
++max-screen(1100px)
+	// Header
+	.btn-hamburger
+		display inline-block
+		
+	.header
+		position fixed
+		transition background-color .17s ease-in-out
+		padding 10px 0
+		&.is-fixed
+			background-color $dark-bg
+		&__row
+			justify-content space-between
+			width 100%
+			position relative
+			
+		.logo
+			position absolute
+			position-center()
+			z-index 16
+			img
+				width 100px
+				
+		.phone-link
+			position relative
+			z-index 16
+			
+	.nav-wrapper
+		flex none
+		
+	.nav
+		position fixed
+		top 0
+		margin 0
+		left 0
+		width 100%
+		height 100vh
+		z-index 15
+		overflow-y auto
+		transition all .3s ease-in-out
+		opacity 0
+		visibility hidden
+		pointer-events none
+		background-color $dark-bg
+		display flex
+		flex-col-center()
+		&.is-opened
+			opacity 1
+			visibility visible
+			pointer-events auto
+			
+		&-list
+			margin-right 0
+			margin-bottom 50px
+			ul
+				text-align center
+				margin-right 0
+				li
+					display block
+					margin-right 0
+					margin-bottom 25px
+					&:last-child
+						margin-bottom 0
+						
+	.langs
+		margin 0
+		
+	.block-img
+		position relative
+		transform none
+		top auto
+		left auto
+		right auto
+		margin 40px auto 0
+		width 100%
+		
+		height auto
+		min-height auto
+		padding 50px
+		&-wrapper
+			padding-right 0
+			min-height auto
+			max-width 100%
+			margin-top 0
+				
+			&__left
+				.block-text
+					padding-left 0 !important
+				.block-img
+					left auto
+					right auto
+		
+	.block-text
+		padding-top 0
+		padding-right 0
+		
+	.sect-title
+		text-align center
+		margin-bottom 40px
+		
+	.about-complex__information
+		text-align center
+		
+	.description
+		max-width 100%
+		margin 0 auto
+		.content
+			max-width 600px
+			margin 0 auto
+		&-img
+			position relative
+			transform none
+			top auto
+			left auto
+			bottom auto
+			right auto
+			width 100%
+			height auto
+			
+			margin-top 40px
+		&-wrapper
+			min-height auto
+		
+		
+	.view-360
+		.sect-title
+			text-align left
+			
+	.decor-side-block:after
+		display none
+		
+	.investor-benefit
+		max-width 400px
+		margin 0 auto 30px auto
+		
+	.decor-side-block
+		.description
+			padding-right 0
+			
+	.investment
+		max-width 100%
+		padding-left 0 !important
+		padding-right 0 
+		&-img
+			position relative
+			width 100%
+			height auto
+			transform none
+			top auto
+			left auto
+			margin-top 40px
+			margin-left 0
+		&-information
+			margin 0 auto
+			
+
+	.terms-content
+		.row
+			flex-wrap wrap
+			justify-content center
+			div
+				width 100%
+				margin-bottom 40px
+				justify-content center
+				
+	.plan-img
+		margin-right 0
+		order 2
+		width 100%
+		flex none
+		margin-top 40px
+		
+	.plan-block
+		&:before
+			display none
+		
+	.plan-content
+		&__item
+			.row
+				flex-wrap wrap
+				p
+					position relative
+					top auto
+					right auto
+					margin-bottom 30px
+		
+	.plan-block-commercial .sect-title
+		margin 0 auto 30px auto
+		text-align center
+		
+	.plan-flats
+		width 100%
+		padding-top 0
+		order 1
+		ul
+			display flex
+			flex-wrap wrap
+			justify-content flex-start
+			margin-left -5px
+			margin-right -5px
+			li
+				width 50%
+				padding-left 5px
+				padding-right 5px
+				margin-bottom 10px
+	
+	.plan-controls
+		margin-left -20px
+		margin-right -20px
+		margin-bottom 30px
+		
+	.sect__offer
+		.sect-title
+			text-align left
+			
+	.sect__community 
+		.block-text
+			padding-top 30px
+		.sect-title
+			max-width 100%
+			
+	.form-block
+		padding-left 0
+		max-width 100%
+		padding-right 0
+		p
+			text-align center
+			margin-bottom 40px
+		&__img
+			position relative
+			left auto
+			top auto
+			transform none
+			width 100%
+			height auto
+			margin-top 40px
+			img
+				position relative
+				width 100%
+				height auto
+				top auto
+				left auto
+				transform none
+				
+	.form
+		margin 0 auto
+		
+		.btn
+			width 100%
+			
++max-screen(992px)
+	.footer
+		&__row
+			flex-wrap wrap
+			flex-direction column
+			align-items center
+			text-align center
+		&__col
+			margin-bottom 30px
+			padding-bottom 30px
+			border-bottom 1px solid rgba($basic-white-color, .15)
+			&:last-child
+				margin-bottom 0
+				padding-bottom 0
+				border-bottom none
+				
+		.logo
+			height auto
+			margin-bottom 25px
+			
+		&-bottom
+			.row
+				flex-wrap wrap
+				text-align center
+				justify-content center
+				p
+					width 100%
+					margin-bottom 20px
+			
+			
+			
+	.developer-logo
+		margin 0 auto 25px auto
+		
++max-screen(767px)
+	.sect-title
+		font-size 36px
+		line-height 45px
+		margin-bottom 30px
+		&-sm
+			font-size 25px
+			line-height 32px
+			margin-bottom 30px
+		&-md
+			font-size 30px
+			line-height 35px
+			margin-bottom 30px
+			
+
+	.view-360
+		width 100%
+		padding 40px 15px
+		text-align center
+		&__content
+			width 100%
+			padding-right 0
+			.sect-title
+				text-align center
+		
+		&__wrapper
+			.container
+				padding-left 0
+				padding-right 0
+				
+
+	.lounge-zone
+		position relative
+		padding-top 75%
+		width calc(100% + 30px)
+		margin-left -15px
+		margin-right -15px
+		img
+			position absolute
+			position-center()
+			width 100%
+			height 100%
+			object-fit cover
+			
+
+	.infrastructure
+		&__row
+			flex-wrap wrap
+			margin-left -20px
+			margin-right -20px
+		&-content
+			padding-right 0
+			max-width 100%
+			flex none
+			padding 40px 20px
+			&:before
+				display none
+		&-map
+			max-width 100%
+			width 100%
+			flex none
+			background-color $color-bg
+			padding 40px 20px
+			&:before
+				display none
+			.map
+				height 450px
+				
+
+	.building-slider
+		min-height auto
+		&:before
+			display none
+			
+		&__controls
+			width 50%
+			margin 0 auto
+		
+	.slider-controls
+		margin 30px auto 0
+		
+	.building-step
+		font-size 12px
+		line-height 15px
+		
+
+		
+
+		
++max-screen(620px)
+	.container
+		padding-left 15px
+		padding-right 15px
+		
+	.gutters
+		padding 60px 0
+		
+	.gutter-top
+		padding-top 60px
+		
+	.gutter-bottom
+		padding-bottom 60px
+		
+	.gutter-top-sm
+		padding-top 40px
+	.gutter-bottom-sm
+		padding-bottom 40px
+		
+	.header
+		.phone-link
+			width 30px
+			height 30px
+			background url('../img/icons/svg/call.svg') no-repeat / contain
+			span
+				display none
+				
+	.block-img
+		padding 25px
+				
+	// Promo
+	.promo-block__btns
+		.btn
+			width 100%
+			margin-right 0
+			margin-bottom 10px
+			&:last-child
+				margin-bottom 0
+				
+	.advantages
+		&-content
+			padding-left 15px
+			padding-right 15px
+		.container
+			padding-left 0
+			padding-right 0
+			
+	.advantage
+		font-size 12px
+		line-height 14px
+		display flex
+		flex-col-center()
+		
+
+	.about-complex__information
+		font-size 12px
+		line-height 14px
+		&--value
+			font-size 45px
+			margin-bottom 10px
+			display block
+			
+	.about-complex__text
+		margin-bottom 40px
+		
+	.investment-information
+		height auto
+		width 100%
+		padding-bottom 20px
+		padding-top 20px
+		width 200px
+		&:before
+			display none
+			
+			
+		&__block
+			position relative
+			top auto !important
+			left auto !important
+			right auto !important
+			bottom auto !important
+			width 100%
+			display flex
+			padding-bottom 50px
+			&:after
+				pseudo()
+				width 1px
+				height 100%
+				top 22px
+				left 3.5px
+				background-color rgba($basic-white-color, .15)
+				position absolute
+			p
+				max-width 100%
+				br
+					display none
+			&:last-child
+				padding-bottom 0
+				&:after
+					display none
+					
+
+	.plan
+		&-block
+			&:last-child
+				padding-bottom 0
+		&-img
+			order 1
+			margin-top 0
+			margin-bottom 30px
+		&-flats
+			order 2
+			li
+				font-size 12px
+				span
+					margin-right 5px
+					
+		&-controls
+			height 65px
+			&__btn
+				font-size 14px
+				padding-left 5px
+				padding-right 5px
+				height 65px
+					
+	.terms-content
+		.row
+			justify-content center
+			div
+				margin-bottom 30px
+				justify-content flex-start
+				text-align left
+				width 270px
+				flex-wrap wrap
+				p
+					width 100%
+				
+				a
+					margin-right 0
+					margin-bottom 20px
+	
+	.sect__offer
+		text-align center
+		.sect-title
+			text-align center
+			
+	.infrastructure
+		&__row
+			margin-left -15px
+			margin-right -15px
+		&-content,
+		&-map
+			padding 40px 15px
+			
+		.map
+			height 300px
+			
+	.entering-slider
+		&:before
+			display none
+		&__text
+			width 100%
+			
+
++max-screen(364px)
+	.sect-title
+		font-size 28px
+		line-height 35px
+		
+		&-md
+			font-size 25px
+			line-height 32px
+		&-sm
+			font-size 20px
+			line-height 27px
+			
+	.plan-flats
+		li
+			font-size 10px
+			
+	.about-complex__information--value
+		font-size 35px
+		
+	.advantage
+		font-size 10px

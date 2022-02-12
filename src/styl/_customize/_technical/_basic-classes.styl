@@ -165,7 +165,9 @@
 				margin-right 4px
 
 
-
+.color-bg
+	background-color $color-bg
+	
 .block-img
 	position absolute
 	height 100%
@@ -221,7 +223,13 @@
 		width 100px
 		background-color $basic-white-color
 		z-index 1
+		transition width .55s ease-in-out
+		width 0
 	&__left
 		&:after
 			right auto
 			left 0
+			
+	&.is-animated
+		&:after
+			width 100px

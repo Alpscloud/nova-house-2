@@ -1,4 +1,8 @@
 .nav
+	display flex
+	justify-content space-between
+	align-items center
+	flex 1
 	&-wrapper
 		margin-left 40px
 		flex 1
@@ -6,17 +10,38 @@
 		align-items center
 		justify-content space-between
 		
-	ul
-		margin-right 40px
-		text-align left
-		li
-			display inline-block
-			margin-right 36px
-			&:last-child
-				margin-right 0
-		a
-			color rgba(255, 255, 255, 0.6)
-			font-size 14px
-			&:hover
-				color $basic-white-color
+	&-list
+		
+		ul
+			margin-right 40px
+			text-align left
+			li
+				display inline-block
+				margin-right 36px
+				&:last-child
+					margin-right 0
+			a
+				color rgba(255, 255, 255, 0.6)
+				font-size 14px
+				&:hover
+					color $basic-white-color
 			
+
+.footer-nav
+	&__title
+		color $basic-white-color
+		text-transform uppercase
+		font 24px $Kudryashov
+		margin-bottom 60px
+	li
+		display block
+		margin-bottom 25px
+		&:last-child
+			margin-bottom 0
+	a
+		color rgba($basic-white-color, 0.6)
+		font 18px $Kudryashov
+		text-transform uppercase
+		&:hover
+			color $basic-white-color
+		

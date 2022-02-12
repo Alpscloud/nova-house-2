@@ -32,10 +32,11 @@
 		
 	&-close
 		display inline-block
-		width 20px
-		height 20px
-		background url('../img/icons/svg/close-ic.svg') center center no-repeat
-		background-size 20px 20px
+		width 15px
+		height 15px
+		svg
+			svg()
+			fill $basic-white-color
 		
 
 		
@@ -74,24 +75,22 @@
 		
 
 	&-hamburger
-		display inline-block
+		display none
 		flex none
 		width 50px
 		height 50px
-		border-radius 50%
-		background-color $accent-color
 		position relative
-		transition background-color .17s ease-in-out
-		margin-left 15px
+		z-index 16
+		margin-left -10px
 		&__line
 			width 27px
 			height 2px
-			background-color $basic-black-color
+			background-color $basic-white-color
 			display block
 			margin 6px auto
 			transition all 0.3s ease-in-out	
 		&.is-active
-			.btn__hamburger--line
+			span
 				&:nth-child(1)
 					transform translateY(8px) rotate(45deg)
 				&:nth-child(2)
