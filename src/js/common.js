@@ -201,6 +201,31 @@ $(document).ready(function() {
 		}
 	});
 
+	var renovationSlider = new Swiper('.js-renovation-slider', {
+		slidesPerView: 1,
+		loop: true,
+		speed: 800,
+		spaceBetween: 10,
+		navigation: {
+			nextEl: '.js-renovation-slider-btn-next',
+			prevEl: '.js-renovation-slider-btn-prev',
+		},
+		breakpoints: {
+			1280: {
+				slidesPerView: 'auto',
+				spaceBetween: 50,
+			},
+			992: {
+				slidesPerView: 3,
+				spaceBetween: 20,
+			},
+			420: {
+				slidesPerView: 2,
+				spaceBetween: 10,
+			}
+		}
+	});
+
 	var buildingSlider = new Swiper('.js-building-slider', {
 		slidesPerView: 1,
 		loop: true,

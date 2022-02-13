@@ -122,14 +122,14 @@
 			<!-- //promo -->
 
 			<section class="sect__about gutter-top-sm gutter-bottom" id="aboutComplex">
-				<h2 class="sect-title container" data-aos="fade-up">О комплексе A Nova 2</h2>
+				<h2 class="sect-title container" data-aos="fade-up">О комплексе <span>A Nova 2</span></h2>
 
 				<div class="container">
 					<div class="block-img-wrapper">
 
 						<div class="block-text" data-aos="fade-up">
 							<div class="about-complex__text content">
-								<p>A NOVA 2 -  это современный клубный дом в Киеве с полных спектром необходимых элементов  для комфортной жизни:</p>
+								<p>A NOVA 2 -  это современный клубный дом в Киеве с полным спектром необходимых элементов  для комфортной жизни:</p>
 								<ul>
 									<li>функциональный дизайн</li>
 									<li>скоростной лифт</li>
@@ -269,7 +269,7 @@
 				<!-- //container -->
 
 
-				<div class="video-wrapper dark-bg gutters">
+				<div class="video-wrapper dark-bg gutters bg" style="background-image: url('img/textures/video.jpg');">
 					<div class="container">
 						<div class="video">
 							<video playsinline="" muted=""  loop="" poster="img/poster.jpg" preload="none">
@@ -317,7 +317,7 @@
 										<div class="investor-benefit"  data-aos="flip-up" data-aos-delay="100">
 											<span class="investor-benefit__price"><span>30690</span>$</span>
 											<div class="content">
-												<p>Цена квартиры готовой под аренду, включая:</p>
+												<p>Цена квартиры готовой под аренду:</p>
 												<ul>
 													<li>квартира площадью 21м² - 25200$;</li>
 													<li>ремонт и мебель - 3990$ (190$ за м²);</li>
@@ -443,7 +443,7 @@
 
 				<section class="sect__plan gutter-top-sm gutter-bottom" id="plans">
 
-					<div class="plan-block js-animated-block">
+					<div class="plan-block js-animated-block gutter-bottom">
 
 
 						<div class="container">
@@ -569,9 +569,62 @@
 									</div>
 								</div>
 							</div>
+
+							<div class="entering-slider__wrapper gutter-top">
+								<div class="entering-slider">
+									<div class="entering-slider__text" data-aos="flip-up" data-aos-delay="100">
+										<div class="content">
+											<h2>предложения по ремонту</h2>
+											<p>Комплексные решения, принятые для инженерного обеспечения дома, отличаются надежностью, долговечностью систем и оборудования, экономичностью в эксплуатации и энергопотреблении, а также удобством в обслуживании.</p>
+										</div>
+									</div>
+									<div class="swiper-container js-renovation-slider">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide">
+												<a href="img/entering/1.jpg" class="fancy-link thumbnail" data-fancybox="renovation"><img src="img/entering/1.jpg" alt=""></a>
+											</div>
+
+											<div class="swiper-slide">
+												<a href="img/entering/2.jpg" class="fancy-link thumbnail" data-fancybox="renovation"><img src="img/entering/2.jpg" alt=""></a>
+											</div>
+
+											<div class="swiper-slide">
+												<a href="img/entering/3.jpg" class="fancy-link thumbnail" data-fancybox="renovation"><img src="img/entering/3.jpg" alt=""></a>
+											</div>
+
+											<div class="swiper-slide">
+												<a href="img/entering/4.jpg" class="fancy-link thumbnail" data-fancybox="renovation"><img src="img/entering/4.jpg" alt=""></a>
+											</div>
+										</div>
+									</div>
+
+									<div class="entering-slider__controls">
+
+										<div class="slider-controls">
+											<button class="slider-controls__btn js-renovation-slider-btn-prev" type="button">
+												<svg  viewBox="0 0 31 8"  xmlns="http://www.w3.org/2000/svg">
+													<path d="M0.646447 3.64645C0.451184 3.84171 0.451184 4.15829 0.646447 4.35355L3.82843 7.53553C4.02369 7.7308 4.34027 7.7308 4.53553 7.53553C4.7308 7.34027 4.7308 7.02369 4.53553 6.82843L1.70711 4L4.53553 1.17157C4.7308 0.976311 4.7308 0.659728 4.53553 0.464466C4.34027 0.269204 4.02369 0.269204 3.82843 0.464466L0.646447 3.64645ZM1 4.5H31V3.5H1V4.5Z" fill="#090B13"/>
+												</svg>
+
+											</button>
+											<button class="slider-controls__btn js-renovation-slider-btn-next" type="button">
+												<svg  viewBox="0 0 31 8" xmlns="http://www.w3.org/2000/svg">
+													<path d="M30.3536 3.64645C30.5488 3.84171 30.5488 4.15829 30.3536 4.35355L27.1716 7.53553C26.9763 7.7308 26.6597 7.7308 26.4645 7.53553C26.2692 7.34027 26.2692 7.02369 26.4645 6.82843L29.2929 4L26.4645 1.17157C26.2692 0.976311 26.2692 0.659728 26.4645 0.464466C26.6597 0.269204 26.9763 0.269204 27.1716 0.464466L30.3536 3.64645ZM30 4.5H-1.90735e-06V3.5H30V4.5Z" />
+												</svg>
+
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 						<!-- //container -->
 					</div>
+
+
+
+
+
 
 					<div class="plan-block plan-block-commercial gutter-bottom js-animated-block" id="commercial">
 
@@ -666,7 +719,8 @@
 										</button>
 									</div>
 								</div>
-								<div class="infrastructure-map gutters" data-latitude="50.464239" data-longitude="30.408128">
+ 
+								<div class="infrastructure-map gutters" data-latitude="50.466619" data-longitude="30.350173">
 									<div class="map" id="map"></div>
 								</div>
 							</div>
@@ -679,7 +733,7 @@
 
 				<section class="sect__community gutter-bottom">
 					<div class="container">
-						<h2 class="sect-title sect-title-sm" data-aos="fade-up">покупая квартиру в A Nova 2,<br> вы становитесь участником успешного комьюнити</h2>
+						<h2 class="sect-title sect-title-sm" data-aos="fade-up">покупая квартиру <span>в A Nova 2,</span><br> вы становитесь участником успешного комьюнити</h2>
 						<div class="block-img-wrapper">
 
 							<div class="block-text" data-aos="fade-up" data-aos-delay="100">
@@ -731,44 +785,33 @@
 									<div class="swiper-wrapper">
 										<div class="swiper-slide">
 											<div class="building-step">
-												<a href="img/building.jpg" data-fancybox="building" data-caption="Команда Strelnikov Development Group реализует проект по мировым стандартам строительства. От фундамента дома до фасадных материалов со сроком службы 100+ лет или ремонтных работ в каждой квартире - качество гарантировано." class="fancy-link thumbnail">
+												<a href="img/building.jpg" data-fancybox="building" data-caption="Выполнены демонтажные и геодезические работы. Разработанно 1720 кубов грунта и подготовленно дно котлована." class="fancy-link thumbnail">
 													<img src="img/building.jpg" alt="">
 												</a>
-												<p class="date">05/02/2022</p>
-												<p>Команда Strelnikov Development Group реализует проект по мировым стандартам строительства. От фундамента дома до фасадных материалов со сроком службы 100+ лет или ремонтных работ в каждой квартире - качество гарантировано.</p>
+												<p class="date">28.10.2021</p>
+												<p>Выполнены демонтажные и геодезические работы. Разработанно 1720 кубов грунта и подготовленно дно котлована.</p>
 											</div>
 										</div>
 										<!-- //slide -->
 
 										<div class="swiper-slide">
 											<div class="building-step">
-												<a href="img/building.jpg" data-fancybox="building" data-caption="Команда Strelnikov Development Group реализует проект по мировым стандартам строительства. От фундамента дома до фасадных материалов со сроком службы 100+ лет или ремонтных работ в каждой квартире - качество гарантировано." class="fancy-link thumbnail">
+												<a href="img/building.jpg" data-fancybox="building" data-caption="Выполнены демонтажные и геодезические работы. Разработанно 1720 кубов грунта и подготовленно дно котлована." class="fancy-link thumbnail">
 													<img src="img/building.jpg" alt="">
 												</a>
-												<p class="date">05/02/2022</p>
-												<p>Команда Strelnikov Development Group реализует проект по мировым стандартам строительства. От фундамента дома до фасадных материалов со сроком службы 100+ лет или ремонтных работ в каждой квартире - качество гарантировано.</p>
+												<p class="date">28.10.2021</p>
+												<p>Выполнены демонтажные и геодезические работы. Разработанно 1720 кубов грунта и подготовленно дно котлована.</p>
 											</div>
 										</div>
 										<!-- //slide -->
 
 										<div class="swiper-slide">
 											<div class="building-step">
-												<a href="img/building.jpg" data-fancybox="building" data-caption="Команда Strelnikov Development Group реализует проект по мировым стандартам строительства. От фундамента дома до фасадных материалов со сроком службы 100+ лет или ремонтных работ в каждой квартире - качество гарантировано." class="fancy-link thumbnail">
+												<a href="img/building.jpg" data-fancybox="building" data-caption="Выполнены демонтажные и геодезические работы. Разработанно 1720 кубов грунта и подготовленно дно котлована." class="fancy-link thumbnail">
 													<img src="img/building.jpg" alt="">
 												</a>
-												<p class="date">05/02/2022</p>
-												<p>Команда Strelnikov Development Group реализует проект по мировым стандартам строительства. От фундамента дома до фасадных материалов со сроком службы 100+ лет или ремонтных работ в каждой квартире - качество гарантировано.</p>
-											</div>
-										</div>
-										<!-- //slide -->
-
-										<div class="swiper-slide">
-											<div class="building-step">
-												<a href="img/building.jpg" data-fancybox="building" data-caption="Команда Strelnikov Development Group реализует проект по мировым стандартам строительства. От фундамента дома до фасадных материалов со сроком службы 100+ лет или ремонтных работ в каждой квартире - качество гарантировано." class="fancy-link thumbnail">
-													<img src="img/building.jpg" alt="">
-												</a>
-												<p class="date">05/02/2022</p>
-												<p>Команда Strelnikov Development Group реализует проект по мировым стандартам строительства. От фундамента дома до фасадных материалов со сроком службы 100+ лет или ремонтных работ в каждой квартире - качество гарантировано.</p>
+												<p class="date">28.10.2021</p>
+												<p>Выполнены демонтажные и геодезические работы. Разработанно 1720 кубов грунта и подготовленно дно котлована.</p>
 											</div>
 										</div>
 										<!-- //slide -->
@@ -871,7 +914,7 @@
 					<div class="footer-contacts">
 						<div class="footer-text">
 							<p class="footer-text__label">Адрес отдела продаж:</p>
-							<p>киев, ул. нова, 118</p>
+							<p>Киев, ул. Осенняя 28</p>
 						</div>
 						<div class="footer-text">
 							<p class="footer-text__label">Телефон отдела продаж:</p>
@@ -920,7 +963,7 @@
 					<nav class="footer-nav js-smooth-scrolling-nav">
 						<ul>
 							<li><a href="#aboutComplex">о комплексе</a></li>
-							<li><a href="#forInvestor">инвесстору</a></li>
+							<li><a href="#forInvestor">инвестору</a></li>
 							<li><a href="#plans">планировка</a></li>
 							<li><a href="#infrastructure">инфраструктура</a></li>
 							<li><a href="#contacts">контакты</a></li>

@@ -336,14 +336,24 @@
 // Plan
 .plan
 	&-block
-		margin-bottom 60px
+		
 		position relative
+		.entering-slider
+			min-height auto
+			.swiper-wrapper
+				min-height auto
+			&:before
+				display none
+				
+		.entering-slider__text .content
+			max-width 100%
+				
 		&:before
 			pseudo()
 			background-color $color-bg
 			position absolute
 			top 50px
-			height 620px
+			height calc(100% - 50px)
 			left 0
 			width 0
 			transition width .8s ease-in-out
