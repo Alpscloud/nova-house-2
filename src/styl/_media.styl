@@ -8,6 +8,18 @@
 +max-screen-height(maxHeight)
 +min-screen-height(minHeight)
 */
++max-screen(1550px)
+	.title
+		img
+			margin 0 auto
+			display block
+			max-width 79%
+			
+	.video
+		margin 0 auto
+		max-width 80%
+		padding-top 42.25%
+		
 +max-screen(1450px)
 	.view-360
 		width 200%
@@ -325,11 +337,7 @@
 			margin 0 auto
 			display block
 			
-	.title
-		img
-			margin 0 auto
-			display block
-			max-width 75%
+	
 			
 	.terms-content
 		padding-right 0
@@ -370,10 +378,7 @@
 	.developer-logo
 		margin 0 auto 25px auto
 
-+max-screen(820px)
-	.title
-		img
-			max-width 100%	
+
 +max-screen(767px)
 	.sect-title
 		font-size 36px
@@ -387,6 +392,16 @@
 			font-size 30px
 			line-height 35px
 			margin-bottom 30px
+			
+	.video
+		margin 0 auto
+		max-width 100%
+		padding-top 56.25%
+		
+		&-btn
+			&:after
+				width 70px
+				height 70px
 			
 
 	.view-360
@@ -464,6 +479,10 @@
 
 		
 +max-screen(620px)
+
+	.title
+		img
+			max-width 100%	
 	.container
 		padding-left 15px
 		padding-right 15px

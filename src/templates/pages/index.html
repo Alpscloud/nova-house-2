@@ -198,10 +198,12 @@
 				<div class="video-wrapper dark-bg gutters bg" style="background-image: url('img/textures/video.jpg');">
 					<div class="container">
 						<div class="video">
-							<video playsinline="" muted=""  loop="" poster="img/poster.jpg" preload="none">
-								<source src="video.mp4" type="video/mp4">
+							<video playsinline="" loop="" controls poster="img/poster.jpg" preload="none">
+								<source src="video.mp4" type="video/mp4; codecs=avc1.42E01E, mp4a.40.2"> 
+								<source src="video.webm" type="video/webm; codecs=vp8, vorbis">
 									Sorry, your browser doesn't support embedded videos.
 								</video>
+							<button class="video-btn js-play-video-btn" type="button"></button>
 							</div>
 						</div>
 						<!-- //container -->
@@ -354,8 +356,8 @@
 
 								<div class="row align-horisontal-between align-vertical-center" data-aos="flip-up" data-aos-delay="100">
 									<div>
-										<a href="tel:+38 099 018 11">+38 099 018 11</a>
-										<p>офис продаж: ул. нова, 181</p>
+										<a href="tel:+380 (99) 018 18 11">+380 (99) 018 18 11</a>
+										<p>офис продаж: ул. Клиническая, 4</p>
 									</div>
 
 									<button class="btn btn-hover-accent js-open-popup-form-btn" type="button" data-aos="flip-up" data-aos-delay="150">хочу консультацию</button>
@@ -382,118 +384,11 @@
 							</div>
 
 							<div class="plan-content">
-								<div class="plan-content__item js-tab-content">
-									<div class="row align-vertical-end align-horisontal-between row-nowrap">
-										<p>На одном этаже A Nova House размещено 10 квартир с эргономичным дизайном. Площадь квартир варьируется от 21,59 до 30,49 м².</p>
+								{% include '../parts/components/plans/1.html' %}
+								{% include '../parts/components/plans/2.html' %}
+								{% include '../parts/components/plans/3.html' %}
+								{% include '../parts/components/plans/4.html' %}
 
-										<a href="img/plans/1.jpg" class="plan-img fancy-link" data-fancybox>
-											<img src="img/plans/1.jpg" alt="">
-										</a>
-										<div class="plan-flats">
-											
-
-											<ul class="plan-flats__list">
-												<li class="is-booked"><span>01</span>Квартира 30,49 м²</li>
-												<li><span>02</span>Квартира 30,49 м²</li>
-												<li><span>03</span>Квартира 30,49 м²</li>
-												<li><span>04</span>Квартира 30,49 м²</li>
-												<li><span>05</span>Квартира 30,49 м²</li>
-												<li><span>06</span>Квартира 30,49 м²</li>
-												<li><span>07</span>Квартира 30,49 м²</li>
-												<li><span>08</span>Квартира 30,49 м²</li>
-												<li><span>09</span>Квартира 30,49 м²</li>
-												<li><span>010</span>Квартира 30,49 м²</li>
-												<li><span>011</span>Квартира 30,49 м²</li>
-												<li><span>012</span>Квартира 30,49 м²</li>
-												<li><span>013</span>Квартира 30,49 м²</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-
-								<div class="plan-content__item js-tab-content">
-									<div class="row align-vertical-end align-horisontal-between row-nowrap">
-										<p>На одном этаже A Nova House размещено 10 квартир с эргономичным дизайном. Площадь квартир варьируется от 21,59 до 30,49 м².</p>
-										<a href="img/plans/2.jpg" class="plan-img fancy-link" data-fancybox>
-											<img src="img/plans/2.jpg" alt="">
-										</a>
-										<div class="plan-flats">
-											
-
-											<ul class="plan-flats__list">
-												<li><span>201</span>Квартира 30,49 м²</li>
-												<li><span>202</span>Квартира 30,49 м²</li>
-												<li><span>203</span>Квартира 30,49 м²</li>
-												<li><span>204</span>Квартира 30,49 м²</li>
-												<li><span>205</span>Квартира 30,49 м²</li>
-												<li><span>206</span>Квартира 30,49 м²</li>
-												<li><span>207</span>Квартира 30,49 м²</li>
-												<li><span>208</span>Квартира 30,49 м²</li>
-												<li><span>209</span>Квартира 30,49 м²</li>
-												<li><span>210</span>Квартира 30,49 м²</li>
-												<li><span>211</span>Квартира 30,49 м²</li>
-												<li><span>212</span>Квартира 30,49 м²</li>
-												<li><span>213</span>Квартира 30,49 м²</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-
-								<div class="plan-content__item js-tab-content">
-									<div class="row align-vertical-end align-horisontal-between row-nowrap">
-										<p>На одном этаже A Nova House размещено 10 квартир с эргономичным дизайном. Площадь квартир варьируется от 21,59 до 30,49 м².</p>
-										<a href="img/plans/3.jpg" class="plan-img fancy-link" data-fancybox>
-											<img src="img/plans/3.jpg" alt="">
-										</a>
-										<div class="plan-flats">
-											
-
-											<ul class="plan-flats__list">
-												<li><span>301</span>Квартира 30,49 м²</li>
-												<li><span>302</span>Квартира 30,49 м²</li>
-												<li><span>303</span>Квартира 30,49 м²</li>
-												<li><span>304</span>Квартира 30,49 м²</li>
-												<li><span>305</span>Квартира 30,49 м²</li>
-												<li><span>306</span>Квартира 30,49 м²</li>
-												<li><span>307</span>Квартира 30,49 м²</li>
-												<li><span>308</span>Квартира 30,49 м²</li>
-												<li><span>309</span>Квартира 30,49 м²</li>
-												<li><span>310</span>Квартира 30,49 м²</li>
-												<li><span>311</span>Квартира 30,49 м²</li>
-												<li><span>312</span>Квартира 30,49 м²</li>
-												<li><span>313</span>Квартира 30,49 м²</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-
-								<div class="plan-content__item js-tab-content">
-									<div class="row align-vertical-end align-horisontal-between row-nowrap">
-										<p>На одном этаже A Nova House размещено 10 квартир с эргономичным дизайном. Площадь квартир варьируется от 21,59 до 30,49 м².</p>
-										<a href="img/plans/4.jpg" class="plan-img fancy-link" data-fancybox>
-											<img src="img/plans/4.jpg" alt="">
-										</a>
-										<div class="plan-flats">
-											
-
-											<ul class="plan-flats__list">
-												<li><span>401</span>Квартира 30,49 м²</li>
-												<li><span>402</span>Квартира 30,49 м²</li>
-												<li><span>403</span>Квартира 30,49 м²</li>
-												<li><span>404</span>Квартира 30,49 м²</li>
-												<li><span>405</span>Квартира 30,49 м²</li>
-												<li><span>406</span>Квартира 30,49 м²</li>
-												<li><span>407</span>Квартира 30,49 м²</li>
-												<li><span>408</span>Квартира 30,49 м²</li>
-												<li><span>409</span>Квартира 30,49 м²</li>
-												<li><span>410</span>Квартира 30,49 м²</li>
-												<li><span>411</span>Квартира 30,49 м²</li>
-												<li><span>412</span>Квартира 30,49 м²</li>
-												<li><span>413</span>Квартира 30,49 м²</li>
-											</ul>
-										</div>
-									</div>
-								</div>
 							</div>
 
 							<div class="entering-slider__wrapper gutter-top">

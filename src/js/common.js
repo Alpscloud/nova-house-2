@@ -64,26 +64,33 @@ $(document).ready(function() {
 
 	
 
+	$('.js-play-video-btn').on('click', function(e) {
+		e.preventDefault();
 
-	var videoOffset = $('.video').offset().top;
-
-	$(window).on('scroll', function() {
-
-		var documentScroll = $(document).scrollTop();
-		var scroll = $(this).scrollTop();
-		var windowHeight = $(window).height();
-
-		var visibilityPoint = videoOffset - windowHeight - 200;
-
-		if (documentScroll > visibilityPoint) {
-			$('.video').addClass('is-loaded');
-			$('.video video').attr('preload', '');
-			$('.video video').attr('autoplay', '');
-		}
-
-
-
+		$(this).addClass('is-hidden');
+		$(this).parents('.video').find('video').attr('preload', '');
+		$(this).parents('.video').find('video').attr('autoplay', '');
 	});
+
+	// var videoOffset = $('.video').offset().top;
+
+	// $(window).on('scroll', function() {
+
+	// 	var documentScroll = $(document).scrollTop();
+	// 	var scroll = $(this).scrollTop();
+	// 	var windowHeight = $(window).height();
+
+	// 	var visibilityPoint = videoOffset - windowHeight - 200;
+
+	// 	if (documentScroll > visibilityPoint) {
+	// 		$('.video').addClass('is-loaded');
+	// 		$('.video video').attr('preload', '');
+	// 		$('.video video').attr('autoplay', '');
+	// 	}
+
+
+
+	// });
 
 
 	// Popup
