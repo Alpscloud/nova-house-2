@@ -1,0 +1,459 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"backgroun",
+				"background-image\tproperty"
+			],
+			[
+				"Ba",
+				"background-image\tproperty"
+			],
+			[
+				"page-gal",
+				"page-gallery-single.html"
+			],
+			[
+				"page-",
+				"page-contacts.html"
+			],
+			[
+				"page",
+				"page-product.html"
+			],
+			[
+				"pro",
+				"product-thumb-full"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"animation",
+				"animationSuccessTip"
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"tra",
+				"transparent"
+			],
+			[
+				"slidesTo",
+				"slidesToScroll"
+			],
+			[
+				"examples",
+				"examples__slider"
+			],
+			[
+				"backgro",
+				"background-image\tproperty"
+			],
+			[
+				"bac",
+				"backgrounds"
+			],
+			[
+				"ease",
+				"ease-in"
+			],
+			[
+				"esae",
+				"ease-out"
+			],
+			[
+				"backgr",
+				"background-image"
+			],
+			[
+				"set",
+				"setTimeout"
+			],
+			[
+				"stroke",
+				"stroke-dasharray"
+			],
+			[
+				"stroke-das",
+				"stroke-dasharray"
+			],
+			[
+				"fill",
+				"fill-opacity"
+			],
+			[
+				"strok-",
+				"stroke-dashoffset"
+			],
+			[
+				"stroke-da",
+				"stroke-dashoffset"
+			],
+			[
+				"window",
+				"windowHeight"
+			],
+			[
+				"w",
+				"windowOffset"
+			],
+			[
+				"col__gutter",
+				"col__gutter--right"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"step",
+				"stepAttr"
+			],
+			[
+				"rem",
+				"removeClass"
+			],
+			[
+				"next",
+				"nextStepIndex"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"fade",
+				"fadeIn"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"stroe",
+				"stroke-dasharray"
+			],
+			[
+				"over",
+				"overflow-x\tproperty"
+			],
+			[
+				"backg",
+				"background-image\tproperty"
+			],
+			[
+				"min",
+				"min-height\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 416.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Projects/nova-house-2"
+	],
+	"file_history":
+	[
+		"/D/Projects/vokrug-nas/vokrug-nas/src/templates/pages/index.html",
+		"/D/Projects/vokrug-nas/vokrug-nas/src/templates/parts/components/articles-cards-slider.html",
+		"/D/Projects/vokrug-nas/vokrug-nas/src/styl/_components/_pagination.styl",
+		"/D/Projects/dentalex-brazil/_project/src/styl/_libs/swiper.css",
+		"/D/Projects/dentalex-brazil/_project/src/styl/_libs/_libs.styl",
+		"/D/Projects/dentalex-brazil/_project/src/js/libs/swiper.js",
+		"/D/Projects/dentalex-brazil/_project/node_modules/weinre/web/client/inspector.css",
+		"/D/Projects/dentalex-brazil/_project/src/templates/parts/components/form-wrapper.html",
+		"/D/Projects/dentalex-brazil/_project/src/styl/_components/_buttons.styl",
+		"/C/Users/winde/Downloads/close.svg",
+		"/D/Projects/dentalex-brazil/_project/src/templates/parts/components/nav.html",
+		"/D/Projects/dentalex-brazil/_project/src/templates/parts/head.html",
+		"/D/Projects/dentalex-brazil/_project/src/img/logo-light.svg",
+		"/D/Projects/dentalex-brazil/_project/src/styl/_sections/_footer.styl",
+		"/D/Projects/dentalex-brazil/_project/src/templates/parts/sections/footer.html",
+		"/D/Projects/dentalex-brazil/_project/src/styl/_components/_form.styl",
+		"/D/Projects/dentalex-brazil/_project/src/templates/parts/sections/header.html",
+		"/D/Projects/dentalex-brazil/_project/src/styl/_components/_sliders.styl",
+		"/D/Projects/dentalex-brazil/_project/src/styl/_customize/_technical/_basic-classes.styl",
+		"/D/Projects/dentalex-brazil/tmpl/Архив/mail.svg",
+		"/D/Projects/dentalex-brazil/tmpl/Архив/name.svg",
+		"/D/Projects/dentalex-brazil/tmpl/Архив/arrow_right.svg",
+		"/D/Projects/dentalex-brazil/tmpl/Архив/arrow_left.svg",
+		"/D/Projects/dentalex-brazil/tmpl/Архив/phone.svg",
+		"/D/Projects/dentalex-brazil/tmpl/Архив/Call.svg",
+		"/D/Projects/dentalex-brazil/_project/src/styl/_components/_nav.styl",
+		"/D/Projects/dentalex-brazil/_project/src/styl/_sections/_header.styl",
+		"/D/Projects/dentalex-brazil/_project/src/styl/_customize/_typography/_fonts.styl",
+		"/D/Projects/dentalex-brazil/_project/src/styl/_components/_logo.styl",
+		"/D/Projects/dentalex-brazil/_project/src/templates/parts/scripts.html",
+		"/C/Users/winde/AppData/Local/Temp/fz3temp-2/mail.php",
+		"/D/Projects/atlas-lazer/src/templates/parts/sections/footer.html",
+		"/C/Users/winde/AppData/Local/Temp/fz3temp-2/index.php",
+		"/D/index.html",
+		"/C/Users/winde/AppData/Local/Temp/fz3temp-2/wp-config.php",
+		"/C/Users/winde/AppData/Local/Temp/fz3temp-2/wp-config 2.php",
+		"/D/OpenServer/OpenServer-new/OSPanel/domains/burenie.loc/wp-content/themes/burenie-theme/style.css",
+		"/D/OpenServer/OpenServer-new/OSPanel/domains/burenie.loc/wp-content/themes/burenie-theme/functions.php",
+		"/D/OpenServer/OpenServer-new/OSPanel/domains/burenie.loc/wp-content/themes/burenie-theme/index.html",
+		"/D/Projects/webdesign-services/_project/src/templates/parts/head.html",
+		"/D/Projects/webdesign-services/_project/src/templates/parts/components/preloader.html",
+		"/D/Projects/webdesign-services/_project/src/styl/_components/_popups.styl",
+		"/D/Projects/webdesign-services/_project/src/templates/parts/components/popup.html",
+		"/D/Projects/webdesign-services/_project/src/templates/parts/components/nav.html",
+		"/D/Projects/webdesign-services/_project/src/templates/parts/components/portfolio-cards.html",
+		"/D/Projects/webdesign-services/_project/src/styl/_components/_preloader.styl",
+		"/D/Projects/ksk-site/_project/app/.htaccess",
+		"/D/Projects/webdesign-services/_project/src/styl/_customize/_technical/_basic-classes.styl",
+		"/D/Projects/webdesign-services/_project/src/styl/_components/_logo.styl",
+		"/D/Projects/webdesign-services/_project/src/templates/parts/sections/header.html",
+		"/D/Projects/webdesign-services/_project/src/img/icons/svg/close-ic.svg",
+		"/D/Projects/webdesign-services/_project/src/styl/_components/_sliders.styl",
+		"/D/Projects/webdesign-services/_project/src/styl/_components/_form.styl",
+		"/D/Projects/Garantika/_project/src/js/common.js",
+		"/D/Projects/webdesign-services/_project/src/img/icons/svg/arrow.svg",
+		"/D/Projects/webdesign-services/_project/src/templates/parts/scripts.html",
+		"/D/Projects/webdesign-services/_project/src/styl/_components/_nav.styl",
+		"/D/Projects/webdesign-services/_project/src/styl/_sections/_header.styl",
+		"/D/Projects/webdesign-services/_project/src/js/common.js",
+		"/D/Projects/webdesign-services/_project/src/index.html",
+		"/D/Projects/caap-logistics-main/caap-logistics-main/src/styl/_customize/_technical/_vars.styl",
+		"/D/Projects/ksk-site/_project/src/templates/pages/page-contacts.html",
+		"/D/Projects/ksk-site/_project/src/styl/_pages/_page-contacts.styl",
+		"/D/Projects/ksk-site/_project/src/styl/_sections/_footer.styl",
+		"/D/Projects/ksk-site/_project/src/templates/parts/sections/footer.html",
+		"/D/Projects/ksk-site/_project/src/templates/parts/scripts.html",
+		"/D/Projects/ksk-site/_project/src/js/common.js",
+		"/D/Projects/ksk-site/_project/src/styl/_components/_buttons.styl",
+		"/D/Projects/ksk-site/_project/src/styl/_components/_breadcrumbs.styl",
+		"/D/Projects/ksk-site/_project/src/templates/parts/components/project-cards.html",
+		"/D/Projects/ksk-site/_project/src/templates/pages/page-category.html",
+		"/D/Projects/ksk-site/_project/src/templates/pages/page-about.html",
+		"/D/Projects/ksk-site/_project/src/styl/_pages/_page-technicals.styl",
+		"/D/Projects/ksk-site/_project/src/templates/pages/page-services.html",
+		"/D/Projects/ksk-site/_project/src/templates/pages/page-projects.html",
+		"/D/Projects/ksk-site/_project/src/templates/pages/index.html",
+		"/D/Projects/ksk-site/_project/src/styl/_components/_form.styl",
+		"/D/Projects/ksk-site/_project/src/styl/_media.styl",
+		"/D/Projects/ksk-site/_project/src/styl/_pages/_page-services.styl",
+		"/D/Projects/ksk-site/_project/src/styl/_sections/_header.styl",
+		"/D/Projects/ksk-site/_project/src/templates/pages/404.html",
+		"/D/Projects/ksk-site/_project/src/styl/_components/_logo.styl",
+		"/D/Projects/ksk-site/_project/src/styl/_customize/_technical/_grid.styl",
+		"/D/Projects/ksk-site/_project/src/templates/parts/sections/sect-categories.html",
+		"/D/Projects/ksk-site/_project/src/templates/parts/sections/sect-projects-review.html",
+		"/D/Projects/ksk-site/_project/src/styl/_pages/_page-about.styl",
+		"/D/Projects/ksk-site/_project/src/styl/_customize/_typography/_fonts.styl",
+		"/D/Projects/ksk-site/_project/src/img/icons/svg/location-red.svg",
+		"/D/Projects/ksk-site/_project/src/img/icons/svg/text-arrow.svg",
+		"/D/Projects/ksk-site/_project/src/styl/_pages/_page-index.styl",
+		"/D/Projects/ksk-site/_project/src/templates/parts/sections/header-inner.html",
+		"/D/Projects/ksk-site/_project/src/templates/parts/sections/header.html",
+		"/D/Projects/ksk-site/_project/src/styl/_components/_sliders.styl",
+		"/D/Projects/ksk-site/_project/src/templates/pages/page-project.html",
+		"/D/Projects/ksk-site/_project/src/styl/_pages/_page-projects.styl",
+		"/D/Projects/ksk-site/_project/src/styl/_components/_preloader.styl",
+		"/D/Projects/ksk-site/_project/src/styl/_pages/pages.styl",
+		"/D/Projects/ksk-site/_project/src/styl/_libs/_libs.styl",
+		"/D/Projects/MyStartingTemplate/MyStartingTemplate/src/styl/_customize/_technical/_vars.styl",
+		"/D/Projects/ksk-site/_project/src/styl/_components/_nav.styl",
+		"/D/Projects/ksk-site/_project/src/templates/parts/sections/sect-technical.html",
+		"/D/Projects/ksk-site/_project/src/js/libs/simplebar.min.js",
+		"/D/Projects/ksk-site/_project/src/styl/_libs/simplebar.css",
+		"/D/Projects/ksk-site/_project/src/styl/_customize/_technical/_basic-classes.styl",
+		"/D/Projects/ksk-site/_project/src/templates/parts/head.html",
+		"/D/Projects/ksk-site/_project/src/templates/parts/components/nav.html",
+		"/D/Projects/ksk-komfort/src/js/common.js",
+		"/D/Projects/Garantika/_project/app/js/common.js",
+		"/D/Projects/Garantika/_project/src/templates/parts/components/stamp.svg",
+		"/D/Projects/Garantika/_project/src/styl/_components/_buttons.styl",
+		"/D/Projects/Garantika/_project/src/img/icons/svg/phone-email.svg",
+		"/D/Projects/Garantika/_project/src/img/icons/svg/location.svg",
+		"/D/Projects/Garantika/_project/src/styl/_blocks/_footer.styl",
+		"/D/Projects/Garantika/_project/src/templates/parts/sections/footer.html",
+		"/D/Projects/Garantika/_project/src/styl/_customize/_fonts.styl",
+		"/C/Users/winde/AppData/Local/Temp/fz3temp-2/page.php",
+		"/C/Users/winde/AppData/Local/Temp/fz3temp-2/single.php",
+		"/C/Users/winde/AppData/Local/Temp/fz3temp-2/page-product-template.php",
+		"/C/Users/winde/AppData/Local/Temp/fz3temp-2/page-contacts-template.php",
+		"/C/Users/winde/AppData/Local/Temp/fz3temp-2/page-about-template.php",
+		"/C/Users/winde/AppData/Local/Temp/fz3temp-2/page-580.php",
+		"/C/Users/winde/AppData/Local/Temp/fz3temp-2/page-318.php",
+		"/C/Users/winde/AppData/Local/Temp/fz3temp-2/page-315.php",
+		"/C/Users/winde/AppData/Local/Temp/fz3temp-2/header.php",
+		"/C/Users/winde/AppData/Local/Temp/fz3temp-2/category.php",
+		"/C/Users/winde/AppData/Local/Temp/fz3temp-2/archive-portfolio.php",
+		"/C/Users/winde/AppData/Local/Temp/fz3temp-2/front-page.php",
+		"/C/Users/winde/AppData/Local/Temp/fz3temp-2/footer.php"
+	],
+	"find":
+	{
+		"height": 45.0
+	},
+	"find_in_files":
+	{
+		"height": 185.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "D:\\Projects\\nova-house-2"
+		}
+	],
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 210.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 592.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 263.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
